@@ -314,10 +314,10 @@ export const projects = [
     tagline: 'Where it all started: 50+ games hosted for 40–80 players.',
     body: [
       'UHC (Ultra Hardcore) is a Minecraft mode where health does not regenerate and one death sends you home. From December 2014 to July 2016 I hosted a little over 50 games as xVex, for 40–80 players at a time, across The Arcus Network, Arcus UHC, Neighborhood and Apollo UHC.',
-      'I rented and self-hosted servers, configured plugins (and wrote my own, MeleeFun, in Java), designed graphics, promoted every match on Reddit and moderated all of it. Thousands of hours, and the reason I got into event management.',
+      'I hosted and set up the servers, wrote Skripts, designed texture packs and graphics, ran the communities around the games, promoted every match on Reddit and moderated all of it. Thousands of hours, and the reason I got into event management.',
     ],
-    features: ['50+ games hosted, 40–80 players each', 'Every match promoted on r/ultrahardcore and r/UHCMatches', 'My own Java plugin: MeleeFun (2015)', 'Server setup, scenarios and live moderation'],
-    tech: ['Server hosting', 'Java plugins', 'Reddit', 'Moderation'],
+    features: ['50+ games hosted, 40–80 players each', 'Every match promoted on r/ultrahardcore and r/UHCMatches', 'Wrote Skripts and designed texture packs', 'Server setup, scenarios and live moderation'],
+    tech: ['Server hosting', 'Skript', 'Texture packs', 'Reddit', 'Moderation'],
     images: [['uhc/uhc22', "Reddit posts for xVex's games #47–53 on Apollo UHC, July 2016"]],
   },
   {
