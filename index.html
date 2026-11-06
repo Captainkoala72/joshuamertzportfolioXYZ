@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Joshua Mertz · Portfolio</title>
+    <meta name="description" content="Joshua Mertz builds games, sports tools and AI apps. Esports management student at Harrisburg University, community builder since 2011." />
+    <meta name="author" content="Joshua Mertz" />
+    <meta name="theme-color" content="#f3f1ec" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0e0f11" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Joshua Mertz · Portfolio" />
+    <meta property="og:title" content="Joshua Mertz · Portfolio" />
+    <meta property="og:description" content="Games, sports tools and AI apps, plus 15 years of building online communities." />
+    <meta property="og:url" content="__SITE_URL__/" />
+    <meta property="og:image" content="__SITE_URL__/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Joshua Mertz portfolio: games, sports tools and AI apps" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Joshua Mertz · Portfolio" />
+    <meta name="twitter:description" content="Games, sports tools and AI apps." />
+    <meta name="twitter:image" content="__SITE_URL__/og.jpg" />
+    <script>
+      (function () {
+        var d = document.documentElement;
+        d.classList.remove('no-js');
+        d.classList.add('js');
+        try {
+          var t = localStorage.getItem('jm-theme');
+          if (t === 'light' || t === 'dark') d.setAttribute('data-theme', t);
+        } catch (e) {}
+      })();
+    </script>
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#work">Skip to the work</a>
+
+    <header class="bar" data-bar>
+      <a class="bar__brand" href="#top" aria-label="Joshua Mertz, back to top">
+        <span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>Joshua Mertz</span>
+      </a>
+      <nav class="bar__nav" aria-label="Sections">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="bar__cta" href="mailto:joshuamertz716@gmail.com">Email me</a>
+    </header>
+
+    <main id="top">
+      <!-- ============ INTRO BENTO ============ -->
+      <section class="wrap intro" aria-label="Introduction">
+        <div class="bento bento--intro" data-spot>
+          <article class="tile t-hello" data-in>
+            <p class="label"><span class="dot"></span>Portfolio · 2011–2026</p>
+            <h1 class="hello__title" data-split>I build games, sports tools and AI apps.</h1>
+            <p class="hello__text">
+              I'm Joshua Mertz, an esports management student who has been building online communities since my Minecraft days. Now I ship with AI almost every day: websites, a Windows app and a full 3D tennis game.
+            </p>
+            <div class="hello__actions">
+              <a class="btn btn--accent" href="#work">See my work</a>
+              <a class="btn btn--ghost" href="mailto:joshuamertz716@gmail.com">Email me</a>
+            </div>
+          </article>
+
+          <figure class="tile t-photo" data-in>
+            <img src="/img/me/joshua.webp" srcset="/img/me/joshua-sm.webp 400w, /img/me/joshua.webp 640w" sizes="(max-width: 600px) 100vw, 320px" width="640" height="854" alt="Joshua Mertz" fetchpriority="high" />
+            <figcaption><span>Joshua Mertz</span><span>Builder · sports fan · gamer</span></figcaption>
+          </figure>
+
+          <article class="tile t-now" data-in>
+            <p class="label">Studying</p>
+            <p class="now__big">B.S. Esports Management</p>
+            <p class="now__small">Harrisburg University · online</p>
+            <p class="now__pill">Graduating spring 2027</p>
+          </article>
+
+          <article class="tile t-clock" data-in>
+            <p class="label">Based in</p>
+            <p class="clock__city">Williamsville, NY</p>
+            <p class="clock__time"><span data-clock>--:--</span><small data-clock-zone>ET</small></p>
+            <p class="clock__status"><span class="pulse"></span>Open to new roles</p>
+          </article>
+
+          <article class="tile t-stats" data-in>
+            <p class="label">By the numbers</p>
+            <ul class="stats">
+              <li><b><span data-count="25">25</span>+</b><span>builds made with AI</span></li>
+              <li><b><span data-count="50">50</span>+</b><span>events hosted</span></li>
+              <li><b>~<span data-count="200">200</span></b><span>videos edited</span></li>
+              <li><b><span data-count="30">30</span>+</b><span>players managed</span></li>
+            </ul>
+          </article>
+
+          <button class="tile t-build" type="button" data-open="deucetennis" data-in aria-label="Open DeuceTennis, the game I'm building now">
+            <img src="/img/deuce/keyart-sm.webp" srcset="/img/deuce/keyart-sm.webp 960w, /img/deuce/keyart.webp 1920w" sizes="(max-width: 600px) 100vw, 640px" width="1920" height="1071" alt="" />
+            <span class="build__body">
+              <span class="label label--light">Currently building</span>
+              <span class="build__title">DeuceTennis</span>
+              <span class="build__text">A 3D tennis game with a full career mode. 156 commits in five weeks.</span>
+            </span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </button>
+
+          <article class="tile t-tools" data-in>
+            <p class="label">In my toolbox</p>
+            <div class="marquee" role="img" aria-label="Tools I use: Claude Code, Codex, Gemini, GPT, DeepSeek, Kimi, ElevenLabs, Meshy, Google Flow, ImageGen, Nano Banana, Blender, Godot, Photoshop, DaVinci Resolve, Paint.NET and Sony Vegas Pro.">
+              <div class="marquee__row" aria-hidden="true" data-marquee>Claude Code|Codex|Gemini|GPT|DeepSeek|Kimi|ElevenLabs|Meshy|Google Flow</div>
+              <div class="marquee__row marquee__row--rev" aria-hidden="true" data-marquee>ImageGen|Nano Banana|Blender|Godot|Photoshop|DaVinci Resolve|Paint.NET|Sony Vegas Pro</div>
+            </div>
+          </article>
+
+          <article class="tile t-theme" data-in>
+            <p class="label">Lights</p>
+            <button class="switch" type="button" role="switch" aria-checked="false" data-theme-toggle>
+              <span class="switch__track"><span class="switch__knob"></span></span>
+              <span class="switch__text" data-theme-label>Dark mode</span>
+            </button>
+          </article>
+
+          <article class="tile t-mail" data-in>
+            <p class="label">Say hi</p>
+            <a class="mail__addr" href="mailto:joshuamertz716@gmail.com">joshuamertz716@gmail.com</a>
+            <button class="btn btn--ghost btn--sm" type="button" data-copy="joshuamertz716@gmail.com">Copy email</button>
+          </article>
+        </div>
+      </section>
+
+      <!-- ============ WORK ============ -->
+      <section class="wrap section" id="work">
+        <header class="shead">
+          <div>
+            <p class="label"><span class="dot"></span>Work</p>
+            <h2 class="shead__title" data-split>Twenty-one things I've built.</h2>
+            <p class="shead__sub" data-reveal>From a 2015 Minecraft plugin to a 3D tennis game. Tap any tile for the full story.</p>
+          </div>
+          <div class="filters" role="group" aria-label="Filter projects" data-filters></div>
+        </header>
+        <div class="bento bento--work" data-work data-spot></div>
+        <noscript><p class="noscript">Turn on JavaScript to browse the projects.</p></noscript>
+      </section>
+
+      <!-- ============ EXPERIENCE ============ -->
+      <section class="wrap section" id="experience">
+        <header class="shead">
+          <div>
+            <p class="label"><span class="dot"></span>Experience</p>
+            <h2 class="shead__title" data-split>Esports, content and community.</h2>
+            <p class="shead__sub" data-reveal>Plus the jobs that paid for all of it.</p>
+          </div>
+        </header>
+
+        <div class="bento bento--exp" data-spot>
+          <article class="tile t-esports" data-reveal>
+            <p class="label">Esports</p>
+            <ol class="roles">
+              <li>
+                <p class="roles__when">Fall 2023 – Fall 2025</p>
+                <h3>Director of Esports <span>SUNY Erie (ECC)</span></h3>
+                <p>Ran the club with 30+ active players: rosters, scouting, newsletters, the Discord, events and A/V. Rocket League made deep playoff runs, and Valorant had runs of its own.</p>
+              </li>
+              <li>
+                <p class="roles__when">Fall 2021 – Spring 2023</p>
+                <h3>Co-Club Leader <span>Medaille College</span></h3>
+                <p>Events, a school-wide Minecraft server, teams in the ECAC collegiate league, promotion, monthly newsletters and small social ads.</p>
+              </li>
+              <li>
+                <p class="roles__when">Spring 2021</p>
+                <h3>Assistant Coach <span>SUNY Erie (ECC)</span></h3>
+                <p>Coached every game on the roster, with a Valorant focus.</p>
+              </li>
+            </ol>
+          </article>
+
+          <article class="tile t-content" data-reveal>
+            <p class="label">Content &amp; community</p>
+            <ol class="roles">
+              <li>
+                <p class="roles__when">2017, on and off</p>
+                <h3>Twitch streamer <span>xVechs</span></h3>
+                <p>Counter-Strike and Valorant. 238 followers, plus some subs, donations and giveaways.</p>
+              </li>
+              <li>
+                <p class="roles__when">2014 – 2016</p>
+                <h3>Minecraft UHC host <span>xVex</span></h3>
+                <p>50+ games for 40–80 players each, every one promoted on Reddit. Wrote my own Java plugin, MeleeFun.</p>
+              </li>
+              <li>
+                <p class="roles__when">2011 – 2016</p>
+                <h3>YouTube <span>Minecraft</span></h3>
+                <p>About 200 edited videos and roughly 300 subscribers.</p>
+              </li>
+              <li>
+                <p class="roles__when">About 3 years</p>
+                <h3>Discord moderator</h3>
+                <p>Servers with 100+ members.</p>
+              </li>
+            </ol>
+          </article>
+
+          <article class="tile t-school" data-reveal>
+            <p class="label">School</p>
+            <ul class="plain">
+              <li><strong>Harrisburg University</strong><span>B.S. Esports Management (online)</span><time>Jan 2026 – Spring 2027</time></li>
+              <li><strong>Medaille College</strong><span>Esports Management</span><time>2021 – 2023</time></li>
+            </ul>
+          </article>
+
+          <article class="tile t-jobs" data-reveal>
+            <p class="label">Work</p>
+            <ul class="plain plain--cols">
+              <li><strong>DoorDash &amp; Uber Eats</strong><span>Delivery driver</span><time>Oct 2019 – Present</time></li>
+              <li><strong>Jet's Pizza</strong><span>Delivery driver &amp; store associate</span><time>Apr 2025 – Apr 2026</time></li>
+              <li><strong>Dash's Market</strong><span>Grocery delivery driver</span><time>May 2022 – Jan 2023</time></li>
+              <li><strong>Buffalo Therapeutic Riding Center</strong><span>General maintenance</span><time>Summer 2019</time></li>
+              <li><strong>DiCamillo's Bakery</strong><span>Store associate &amp; cashier</span><time>Oct 2017 – Jan 2019</time></li>
+            </ul>
+          </article>
+
+          <article class="tile t-skills" data-reveal>
+            <p class="label">Craft</p>
+            <ul class="skillbars">
+              <li><span>Paint.NET</span><b>10 yrs</b><i style="--w: 100%"></i></li>
+              <li><span>Video editing</span><b>9 yrs</b><i style="--w: 90%"></i></li>
+              <li><span>DaVinci Resolve</span><b>2 yrs</b><i style="--w: 20%"></i></li>
+              <li><span>Discord moderation</span><b>3 yrs</b><i style="--w: 30%"></i></li>
+            </ul>
+            <p class="skills__note">Video: Sony Vegas Pro, Camtasia, OpenShot and Shotcut. Plus Photoshop.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- ============ ABOUT ============ -->
+      <section class="wrap section" id="about">
+        <header class="shead">
+          <div>
+            <p class="label"><span class="dot"></span>About</p>
+            <h2 class="shead__title" data-split>Off the clock.</h2>
+            <p class="shead__sub" data-reveal>Mostly sports, and building things about sports.</p>
+          </div>
+        </header>
+
+        <div class="bento bento--about" data-spot>
+          <article class="tile t-tennis" data-reveal>
+            <p class="label">Favorite sport</p>
+            <p class="tennis__big">Tennis</p>
+            <ul class="players">
+              <li><span>BRA</span>João Fonseca</li>
+              <li><span>ITA</span>Matteo Berrettini</li>
+              <li><span>USA</span>Ben Shelton</li>
+              <li><span>USA</span>Frances Tiafoe</li>
+              <li><span>ESP</span>Carlos Alcaraz</li>
+            </ul>
+          </article>
+
+          <article class="tile t-teams" data-reveal>
+            <p class="label">Teams</p>
+            <ul class="teams">
+              <li class="is-main"><b>Buffalo Bills</b><span>Die-hard</span></li>
+              <li><b>New York Knicks</b></li>
+              <li><b>Buffalo Sabres</b></li>
+              <li><b>New York Yankees</b></li>
+              <li><b>Tennessee Volunteers</b></li>
+            </ul>
+            <p class="teams__soft">Soft spot: <b>KBO baseball</b>. Greatly entertaining to watch.</p>
+          </article>
+
+          <article class="tile t-into" data-reveal>
+            <p class="label">Into</p>
+            <ul class="into">
+              <li>Sports betting<span>in units, since 21</span></li>
+              <li>Fantasy football<span>a few leagues, every season</span></li>
+              <li>Esports<span>playing, coaching, running clubs</span></li>
+              <li>Building with AI<span>pretty much daily</span></li>
+            </ul>
+          </article>
+
+          <article class="tile t-handles" data-reveal>
+            <p class="label">Handles</p>
+            <dl class="handles">
+              <div><dt>xVex</dt><dd>Minecraft host name</dd></div>
+              <div><dt>xVechs</dt><dd>Twitch and X</dd></div>
+              <div><dt>Captainkoala72</dt><dd>GitHub and Reddit</dd></div>
+            </dl>
+          </article>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section class="wrap section" id="contact">
+        <div class="bento bento--contact" data-spot>
+          <article class="tile t-contact" data-reveal>
+            <p class="label"><span class="dot"></span>Contact</p>
+            <h2 class="contact__title" data-split>Let's build something.</h2>
+            <p class="contact__sub">Email is the fastest way to reach me.</p>
+            <div class="contact__actions">
+              <a class="btn btn--accent btn--lg" href="mailto:joshuamertz716@gmail.com">joshuamertz716@gmail.com</a>
+              <button class="btn btn--ghost" type="button" data-copy="joshuamertz716@gmail.com">Copy email</button>
+            </div>
+          </article>
+          <a class="tile t-social" data-reveal href="https://www.linkedin.com/in/joshua-mertz-967588237/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.07 1.4-2.07 2.86V21H9z" fill="currentColor" /></svg>
+            <span><b>LinkedIn</b><small>joshua-mertz</small></span><span class="arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="tile t-social" data-reveal href="https://x.com/xVechs" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.53 3h3.07l-6.7 7.66L21.8 21h-6.17l-4.83-6.32L5.27 21H2.2l7.17-8.2L1.8 3h6.33l4.36 5.77zm-1.08 16.17h1.7L7.06 4.74H5.24z" fill="currentColor" /></svg>
+            <span><b>X</b><small>@xVechs</small></span><span class="arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="tile t-social" data-reveal href="https://www.twitch.tv/xVechs" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.3 3 3 6.4V20h4.6v2.5h2.6l2.5-2.5h3.7L21 15.4V3zm15 11.6-2.9 2.9h-4.6l-2.5 2.5v-2.5H5.6V4.7h13.7zM15.9 7.6h-1.7v5h1.7zm-4.6 0H9.6v5h1.7z" fill="currentColor" /></svg>
+            <span><b>Twitch</b><small>xVechs</small></span><span class="arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="wrap footer">
+      <p>© 2026 Joshua Mertz</p>
+      <p>Built with Vite, GSAP and a lot of AI.</p>
+    </footer>
+
+    <!-- Project detail sheet -->
+    <dialog class="sheet" data-sheet aria-labelledby="sheet-title">
+      <div class="sheet__inner" data-lenis-prevent>
+        <button class="sheet__close" type="button" data-close aria-label="Close">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" /></svg>
+        </button>
+        <div class="sheet__media" data-sheet-media></div>
+        <div class="sheet__info">
+          <p class="sheet__kind" data-sheet-kind></p>
+          <h2 class="sheet__title" id="sheet-title" data-sheet-title></h2>
+          <p class="sheet__tag" data-sheet-tag></p>
+          <div class="sheet__body" data-sheet-body></div>
+          <div class="sheet__nav">
+            <button class="btn btn--ghost btn--sm" type="button" data-sheet-prev>← Previous</button>
+            <span class="sheet__count" data-sheet-count></span>
+            <button class="btn btn--ghost btn--sm" type="button" data-sheet-next>Next →</button>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <!-- Full-size image viewer -->
+    <dialog class="lightbox" data-lightbox aria-label="Image viewer">
+      <button class="lightbox__close" type="button" data-close aria-label="Close">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" /></svg>
+      </button>
+      <figure class="lightbox__fig">
+        <img data-lb-img alt="" />
+        <figcaption data-lb-cap></figcaption>
+      </figure>
+      <button class="lightbox__arrow lightbox__arrow--prev" type="button" data-lb-prev aria-label="Previous image">‹</button>
+      <button class="lightbox__arrow lightbox__arrow--next" type="button" data-lb-next aria-label="Next image">›</button>
+    </dialog>
+  </body>
+</html>
